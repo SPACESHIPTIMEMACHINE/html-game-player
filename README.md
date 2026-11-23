@@ -75,7 +75,7 @@ xcodebuild -project HTMLArcade.xcodeproj -scheme HTMLArcade \
   -parallel-testing-enabled NO test
 ```
 
-Choose an available simulator name if yours differs. Tests cover imports that preserve every byte, separate game saves, duplicate filenames, invalid files, full-screen playback, and the native Files picker. The optional large-game tests run when a local `fixtures/PokeSurvivor-Offline.html` is present; that folder is git-ignored. Debug builds also accept an `ARCADE_IMPORT_FILE` environment variable for local fixtures.
+  Choose an available simulator name if yours differs. Tests cover imports that preserve every byte, separate game saves, duplicate filenames, invalid files, full-screen playback, and the native Files picker. The optional large-game tests run when a local `fixtures/PokeSurvivor-Offline.html` is present; that folder is git-ignored. Debug builds also accept an `ARCADE_IMPORT_FILE` environment variable for local fixtures.
 
 Maintainer release instructions are in [TESTFLIGHT.md](TESTFLIGHT.md). Forks should use their own signing identity and App Store Connect configuration.
 
